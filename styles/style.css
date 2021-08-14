@@ -1,0 +1,78 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+  background: whitesmoke;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body h1,
+body .game-msg {
+  text-align: center;
+}
+
+body .text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+body .text span {
+  font-size: 24px;
+}
+
+body .text span.highlight {
+  background: yellow;
+}
+
+body .input-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .input-container .input-text {
+  height: 50px;
+  font-size: 24px;
+}
+
+body .input-container .input-text.error {
+  background: #ffa69f;
+}
+
+body .result {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body .result button {
+  height: 40px;
+  width: 80px;
+  border-radius: 6px;
+}
+
+body .table-container {
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .table-container th,
+body .table-container td {
+  border: 1px solid gray;
+  padding: 12px;
+  font-size: 18px;
+  margin: 0;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
